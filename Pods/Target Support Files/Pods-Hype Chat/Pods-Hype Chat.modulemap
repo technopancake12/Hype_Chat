@@ -1,0 +1,6 @@
+framework module Pods_Hype_Chat {
+  umbrella header "Pods-Hype Chat-umbrella.h"
+
+  export *
+  module * { export * }
+}

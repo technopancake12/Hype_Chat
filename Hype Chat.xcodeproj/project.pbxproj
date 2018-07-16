@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3F0FCE20EBD062006F2C39 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F0FCD20EBD062006F2C39 /* SignUpViewController.swift */; };
+		1E61A17020E290B10056E737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E61A16F20E290B10056E737 /* AppDelegate.swift */; };
+		1E61A17220E290B10056E737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E61A17120E290B10056E737 /* ViewController.swift */; };
+		1E61A17A20E290B10056E737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E61A17820E290B10056E737 /* LaunchScreen.storyboard */; };
+		1EC1221220E5353400A5D1C1 /* download (11).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1221120E5353400A5D1C1 /* download (11).jpeg */; };
+		1EC1221420E535ED00A5D1C1 /* hellaflush-diy-babymilo-1-car-decal-sticker-pre-order-alimtech13-1408-04-alimtech13@20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1221320E535ED00A5D1C1 /* hellaflush-diy-babymilo-1-car-decal-sticker-pre-order-alimtech13-1408-04-alimtech13@20.jpg */; };
+		1EC1221620E5365500A5D1C1 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1221520E5365500A5D1C1 /* images.png */; };
+		1EC1221820E536CB00A5D1C1 /* 5a7f5f47abc3d121aba71181.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1221720E536CB00A5D1C1 /* 5a7f5f47abc3d121aba71181.png */; };
+		1EC1221A20E539FE00A5D1C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1221920E539FE00A5D1C1 /* GoogleService-Info.plist */; };
+		1EFEC01220FC517B00E1887C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFEC01120FC517B00E1887C /* Assets.xcassets */; };
+		1EFEC01420FC547C00E1887C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEC01320FC547B00E1887C /* HomeViewController.swift */; };
+		1EFEC01620FC549D00E1887C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEC01520FC549D00E1887C /* SearchViewController.swift */; };
+		1EFEC01820FC54A600E1887C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEC01720FC54A600E1887C /* ProfileViewController.swift */; };
+		1EFEC01A20FC54AE00E1887C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEC01920FC54AE00E1887C /* CartViewController.swift */; };
+		1EFEC01C20FC54BC00E1887C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFEC01B20FC54BC00E1887C /* CameraViewController.swift */; };
+		1EFEC01F20FC5AF500E1887C /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFEC01D20FC5AF500E1887C /* Start.storyboard */; };
+		1EFEC02120FC5B3A00E1887C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFEC02020FC5B3A00E1887C /* Main.storyboard */; };
+		E4887F34EC42844DB873BE52 /* Pods_Hype_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2570EF3164AA4C5C92D852A3 /* Pods_Hype_Chat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E3F0FCD20EBD062006F2C39 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1E61A16C20E290B10056E737 /* Hype Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hype Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E61A16F20E290B10056E737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E61A17120E290B10056E737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E61A17920E290B10056E737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E61A17B20E290B10056E737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC1221120E5353400A5D1C1 /* download (11).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "download (11).jpeg"; path = "../../../download (11).jpeg"; sourceTree = "<group>"; };
+		1EC1221320E535ED00A5D1C1 /* hellaflush-diy-babymilo-1-car-decal-sticker-pre-order-alimtech13-1408-04-alimtech13@20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hellaflush-diy-babymilo-1-car-decal-sticker-pre-order-alimtech13-1408-04-alimtech13@20.jpg"; path = "../../../hellaflush-diy-babymilo-1-car-decal-sticker-pre-order-alimtech13-1408-04-alimtech13@20.jpg"; sourceTree = "<group>"; };
+		1EC1221520E5365500A5D1C1 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../../images.png; sourceTree = "<group>"; };
+		1EC1221720E536CB00A5D1C1 /* 5a7f5f47abc3d121aba71181.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5a7f5f47abc3d121aba71181.png; path = ../../../5a7f5f47abc3d121aba71181.png; sourceTree = "<group>"; };
+		1EC1221920E539FE00A5D1C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1EFEC01120FC517B00E1887C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EFEC01320FC547B00E1887C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1EFEC01520FC549D00E1887C /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1EFEC01720FC54A600E1887C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1EFEC01920FC54AE00E1887C /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		1EFEC01B20FC54BC00E1887C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1EFEC01E20FC5AF500E1887C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Start.storyboard; sourceTree = "<group>"; };
+		1EFEC02020FC5B3A00E1887C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2570EF3164AA4C5C92D852A3 /* Pods_Hype_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hype_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0B31C32F69818A2CF67EB9 /* Pods-Hype Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hype Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hype Chat/Pods-Hype Chat.release.xcconfig"; sourceTree = "<group>"; };
+		B61DD88864D6AA6F7283FAFC /* Pods-Hype Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hype Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hype Chat/Pods-Hype Chat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E61A16920E290B10056E737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4887F34EC42844DB873BE52 /* Pods_Hype_Chat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E61A16320E290B10056E737 = {
+			isa = PBXGroup;
+			children = (
+				1E61A16E20E290B10056E737 /* Hype Chat */,
+				1E61A16D20E290B10056E737 /* Products */,
+				831A932395DB1B51569DC024 /* Pods */,
+				FA4444381253150D56E65DBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E61A16D20E290B10056E737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E61A16C20E290B10056E737 /* Hype Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E61A16E20E290B10056E737 /* Hype Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1E61A16F20E290B10056E737 /* AppDelegate.swift */,
+				1E61A17120E290B10056E737 /* ViewController.swift */,
+				1EFEC01D20FC5AF500E1887C /* Start.storyboard */,
+				1EFEC02020FC5B3A00E1887C /* Main.storyboard */,
+				1EC1221320E535ED00A5D1C1 /* hellaflush-diy-babymilo-1-car-decal-sticker-pre-order-alimtech13-1408-04-alimtech13@20.jpg */,
+				1EC1221720E536CB00A5D1C1 /* 5a7f5f47abc3d121aba71181.png */,
+				1EC1221520E5365500A5D1C1 /* images.png */,
+				1EC1221120E5353400A5D1C1 /* download (11).jpeg */,
+				1E61A17820E290B10056E737 /* LaunchScreen.storyboard */,
+				1E61A17B20E290B10056E737 /* Info.plist */,
+				1EFEC01120FC517B00E1887C /* Assets.xcassets */,
+				1EC1221920E539FE00A5D1C1 /* GoogleService-Info.plist */,
+				1E3F0FCD20EBD062006F2C39 /* SignUpViewController.swift */,
+				1EFEC01320FC547B00E1887C /* HomeViewController.swift */,
+				1EFEC01520FC549D00E1887C /* SearchViewController.swift */,
+				1EFEC01720FC54A600E1887C /* ProfileViewController.swift */,
+				1EFEC01920FC54AE00E1887C /* CartViewController.swift */,
+				1EFEC01B20FC54BC00E1887C /* CameraViewController.swift */,
+			);
+			path = "Hype Chat";
+			sourceTree = "<group>";
+		};
+		831A932395DB1B51569DC024 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B61DD88864D6AA6F7283FAFC /* Pods-Hype Chat.debug.xcconfig */,
+				3E0B31C32F69818A2CF67EB9 /* Pods-Hype Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA4444381253150D56E65DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2570EF3164AA4C5C92D852A3 /* Pods_Hype_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E61A16B20E290B10056E737 /* Hype Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E61A17E20E290B10056E737 /* Build configuration list for PBXNativeTarget "Hype Chat" */;
+			buildPhases = (
+				8BB6E2B17B73B3E46C815326 /* [CP] Check Pods Manifest.lock */,
+				1E61A16820E290B10056E737 /* Sources */,
+				1E61A16920E290B10056E737 /* Frameworks */,
+				1E61A16A20E290B10056E737 /* Resources */,
+				D9B11295D546DE2AA54C8DBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hype Chat";
+			productName = "Hype Chat";
+			productReference = 1E61A16C20E290B10056E737 /* Hype Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E61A16420E290B10056E737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HGPMac72;
+				TargetAttributes = {
+					1E61A16B20E290B10056E737 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1E61A16720E290B10056E737 /* Build configuration list for PBXProject "Hype Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E61A16320E290B10056E737;
+			productRefGroup = 1E61A16D20E290B10056E737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E61A16B20E290B10056E737 /* Hype Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E61A16A20E290B10056E737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E61A17A20E290B10056E737 /* LaunchScreen.storyboard in Resources */,
+				1EC1221A20E539FE00A5D1C1 /* GoogleService-Info.plist in Resources */,
+				1EFEC01F20FC5AF500E1887C /* Start.storyboard in Resources */,
+				1EC1221220E5353400A5D1C1 /* download (11).jpeg in Resources */,
+				1EC1221620E5365500A5D1C1 /* images.png in Resources */,
+				1EC1221820E536CB00A5D1C1 /* 5a7f5f47abc3d121aba71181.png in Resources */,
+				1EFEC02120FC5B3A00E1887C /* Main.storyboard in Resources */,
+				1EFEC01220FC517B00E1887C /* Assets.xcassets in Resources */,
+				1EC1221420E535ED00A5D1C1 /* hellaflush-diy-babymilo-1-car-decal-sticker-pre-order-alimtech13-1408-04-alimtech13@20.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BB6E2B17B73B3E46C815326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hype Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B11295D546DE2AA54C8DBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hype Chat/Pods-Hype Chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hype Chat/Pods-Hype Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E61A16820E290B10056E737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFEC01820FC54A600E1887C /* ProfileViewController.swift in Sources */,
+				1EFEC01620FC549D00E1887C /* SearchViewController.swift in Sources */,
+				1EFEC01A20FC54AE00E1887C /* CartViewController.swift in Sources */,
+				1E3F0FCE20EBD062006F2C39 /* SignUpViewController.swift in Sources */,
+				1E61A17220E290B10056E737 /* ViewController.swift in Sources */,
+				1EFEC01C20FC54BC00E1887C /* CameraViewController.swift in Sources */,
+				1E61A17020E290B10056E737 /* AppDelegate.swift in Sources */,
+				1EFEC01420FC547C00E1887C /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E61A17820E290B10056E737 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E61A17920E290B10056E737 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFEC01D20FC5AF500E1887C /* Start.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFEC01E20FC5AF500E1887C /* Base */,
+			);
+			name = Start.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E61A17C20E290B10056E737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E61A17D20E290B10056E737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E61A17F20E290B10056E737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61DD88864D6AA6F7283FAFC /* Pods-Hype Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hype Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hgp.Hype-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1E61A18020E290B10056E737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0B31C32F69818A2CF67EB9 /* Pods-Hype Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hype Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hgp.Hype-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E61A16720E290B10056E737 /* Build configuration list for PBXProject "Hype Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E61A17C20E290B10056E737 /* Debug */,
+				1E61A17D20E290B10056E737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E61A17E20E290B10056E737 /* Build configuration list for PBXNativeTarget "Hype Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E61A17F20E290B10056E737 /* Debug */,
+				1E61A18020E290B10056E737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E61A16420E290B10056E737 /* Project object */;
+}
